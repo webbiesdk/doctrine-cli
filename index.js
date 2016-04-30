@@ -2,7 +2,7 @@ var program = require('commander');
 var doctrine = require("doctrine");
 
 program
-    .version('1.0.2')
+    .version('1.0.3')
     .option('--unwrap', 'Set to delete the leading /**, any * that begins a line, and the trailing */ from the source text.')
     .option('--sloppy', 'allow optional parameters to be specified in brackets')
     .parse(process.argv);
