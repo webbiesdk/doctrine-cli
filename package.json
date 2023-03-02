@@ -3,6 +3,9 @@
   "version": "1.0.4",
   "description": "A simple wrapper around doctrine, to use it from a command-line setting.",
   "main": "index.js",
+  "bin": {
+    "doctrine": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

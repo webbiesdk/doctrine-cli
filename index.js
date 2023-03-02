@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 (function (process, require) {
     var program = require('commander');
     var doctrine = require("doctrine");
